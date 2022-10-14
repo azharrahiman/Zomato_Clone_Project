@@ -12,7 +12,9 @@ function SearchPageResult() {
   let [filter, setFilter] = useState({ meal_type: meal_id });
   let getLocationList = async () => {
     try {
-      let response = await axios.get("http://localhost:5003/api/get-location");
+      let response = await axios.get(
+        "https://zc-app-prj.herokuapp.com/api/get-location"
+      );
 
       let data = response.data;
       // console.log(data);
@@ -28,7 +30,7 @@ function SearchPageResult() {
     }
   };
   let filterOperation = async (filter) => {
-    let URL = "http://localhost:5003/api/filter";
+    let URL = "https://zc-app-prj.herokuapp.com/api/filter";
 
     // console.log(filter);
     try {
