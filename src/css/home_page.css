@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(/public/fonts/Poppins/Poppins-Regular.ttf);
+  /* src: url(/fonts/Poppins/Poppins-Regular.ttf); */
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins"; */
+}
+
+.container-fluid {
+  padding: 0px;
+  /* background-image: linear-gradient(to top left, #e4a08025, #e4682f34); */
+}
+/* Header section */
+.header {
+  /* border: 1px solid black; */
+  height: 60px;
+  /* background-color: #ce0505; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+.logo_div {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 100px;
+  /* border: 1px solid black; */
+}
+.header_logo {
+  color: #eb2929;
+}
+.login {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: flex-start;
+  /* width: 100%; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.login_log {
+  color: white;
+  background-color: transparent;
+  margin-top: 10px;
+  border: none;
+  /* width: 20vw; */
+  margin-right: 20px;
+  /* border: 1px solid green; */
+}
+.login_create {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-right: 50px;
+}
+/* breakfast section */
+
+.breakfast_title {
+  /* border: 1px solid red; */
+  margin: 30px 250px;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #192f60;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_content {
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 100%;
+  color: #192f60;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+
+  font-weight: normal;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.filter_div {
+  /* border: 1px solid red; */
+  width: 200px;
+  margin-left: 113px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 2px grey;
+  background-image: linear-gradient(to top left, #f754084b, #bb705359);
+}
+#selected_1 {
+  background-color: #8090b3;
+  color: white;
+}
+.labels {
+  font-weight: bold;
+  font-size: 16px;
+  color: #192f60;
+}
+#select_location {
+  color: #636f8848;
+}
+.filter_heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  align-items: center;
+}
+.location_div label {
+  margin-left: 10px;
+}
+.Rate_div label {
+  margin-left: 10px;
+}
+.low_to_high label {
+  margin-left: 10px;
+}
+.location_area {
+  border: none;
+  box-shadow: 0px 0px 2px grey;
+  padding: 5px;
+  border-radius: 5px;
+}
+.space {
+  margin: 8px 0px;
+}
+.article {
+  margin-bottom: 20px;
+  background-image: linear-gradient(to top left, #df8b1e56, #e0343450);
+  width: 70%;
+}
+.article_section {
+  /* border: 1px solid black; */
+  /* width: 80%; */
+  /* height: 80vh; */
+  margin-left: 40px;
+
+  width: 100vh;
+}
+.article_1 {
+  display: flex;
+  /* padding: 10px; */
+
+  /* border: 1px solid red; */
+}
+.article_1_image {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.article_1_image img {
+  border-radius: 20px;
+}
+.article_label {
+  font-size: 25px;
+  margin-left: 20px;
+}
+.article2 {
+  margin-top: 30px;
+}
+.article {
+  box-shadow: 0px 0px 2px grey;
+  padding: 5px;
+  height: 250px;
+  /* margin-top: 40px; */
+}
+.hrline {
+  margin: 5px 20px;
+  /* border-width: 5px; */
+}
+/* .article_2 {
+  /* border: 1px solid green; 
+} */
+.article_1_words {
+  /* border: 1px solid red; */
+  margin: 20px 20px;
+  font-weight: normal;
+}
+.article_1_words p {
+  margin: 8px 20px;
+  font-size: 14px;
+  color: #636f88;
+}
+.cuisines {
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  color: #636f88;
+  font-size: 14px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.cost {
+  margin-left: 100px;
+}
+.list {
+  display: flex;
+  margin-top: 40px;
+  /* margin-left: 200px; */
+  width: 100%;
+}
+.option {
+  border: 1px solid grey;
+  margin: 6px;
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

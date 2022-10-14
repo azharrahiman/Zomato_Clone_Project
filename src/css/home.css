@@ -1,0 +1,134 @@
+/* @font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins/Poppins-Regular.ttf);
+} */
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+.hand {
+  cursor: pointer;
+}
+.image_see {
+  background-color: rgba(255, 255, 255, 0.463);
+
+  top: 400px;
+  left: 950px;
+  color: rgb(0, 0, 71);
+}
+.last_page_image {
+  height: 60vh;
+  width: 100vw;
+}
+.main_image {
+  height: 60vh;
+  width: 100%;
+  /* border: 10px solid red; */
+
+  background-image: linear-gradient(transparent, rgba(66, 12, 12, 0.479)),
+    url(./images/mainbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* mix-blend-mode: multiply; */
+  opacity: 1;
+}
+.icon {
+  /* border: 2px solid red; */
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.icon p {
+  color: #eb2929 !important;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.foodimage {
+  height: 140px;
+  width: 140px;
+}
+.subtitle {
+  font-size: 12px;
+}
+.card {
+  color: #192f60;
+}
+
+.article_border {
+  box-shadow: 0px 3px 6px #00000029;
+}
+.search_list_divs {
+  margin: 10px 30px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.loc_list {
+  list-style: none;
+  border-radius: 3px;
+}
+.display_rest_search {
+  display: none;
+}
+.search_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  margin: 5px;
+}
+.text_size {
+  font-size: 0.8rem;
+  color: #192f60;
+  display: none;
+}
+.rest {
+  color: #192f60;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 760px) {
+  .icon {
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 25px;
+    color: #eb2929;
+  }
+  .main_image {
+    height: 40vh;
+  }
+  .title {
+    font-size: 0.95rem;
+    /* text-align: center; */
+  }
+  .foodimage {
+    height: 90px;
+    width: 25vw;
+  }
+  .text-start {
+    font-size: 10px;
+  }
+  .image_title {
+    font-size: 10px;
+  }
+  .image_def {
+    font-size: 10px;
+  }
+  .discover {
+    font-size: 12px;
+  }
+  .hide_login {
+    display: hide;
+  }
+  .button_text {
+    font-size: 0.7rem;
+  }
+}
