@@ -122,7 +122,6 @@ function Header(props) {
           )}
         </header>
       </GoogleOAuthProvider>
-      ;
     </>
   );
 }
